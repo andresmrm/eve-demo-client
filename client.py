@@ -113,7 +113,7 @@ def endpoint(resource):
 
 
 def get():
-    r = requests.get('http://eve-demo.herokuapp.com')
+    r = requests.get(ENTRY_POINT)
     print r.json
 
 if __name__ == '__main__':
